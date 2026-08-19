@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/tribunal_tjsp_segundo_grau-mcp",
+  "title": "Tribunal TJSP: Processos do 2º Grau",
+  "description": "Tribunal TJSP: Court Cases do 2º Grau, official-source lookup. Platform-hosted, pay per query with p",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/tribunal_tjsp_segundo_grau-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_tribunal_tjsp_segundo_grau"
+    }
+  ]
+}
